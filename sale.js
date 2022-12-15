@@ -25,7 +25,7 @@ const numberElement = document.getElementById("number");
 let purchases = [];
 function add() {
   const targetId  = parseInt(priceElement.value);
-  const product = product.find(item => item.id == targetId);
+  const product = products.find(item => item.id == targetId);
   const number = numberElement.value;
 
   let purchase = {
